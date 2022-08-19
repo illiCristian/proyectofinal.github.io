@@ -37,12 +37,26 @@
           <i class="menu-icon"><img src="img/buttom.png" alt="imagen de menu hamburguesa" title="menu"></i>
         </label>
         <ul class="menu__items">
-          <li class="font2"><a href="index.html" class="font3">Inicio</a></li>
-          <li class="font2"><a href="pages/trabajos.html" class="font3">Trabajos</a></li>
-          <li class="font2"><a href="pages/disenos.html" class="font3">Diseños</a></li>
-          <li class="font2"><a href="pages/proyectos.html" class="font3">Proyectos</a></li>
-          <li class="font2"><a href="pages/sobreMi.html" class="font3">Sobre mi</a></li>
-          <li class="font2"><a href="pages/contacto.html" class="font3">Contacto</a></li>
+          <li class=><a href="index.html" class="font3">Inicio</a></li>
+          <li>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle font3 desplegable" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+               TRABAJOS
+              </button>
+              <ul class="dropdown-menu desplegable-show">
+                <li><a href="./pages/disenospersonalizados.html"><button class="dropdown-item" type="button">Piezas Graficas</button></a></li>
+                <li><a href="./pages/bordados.html"><button class="dropdown-item" type="button">Bordados</button></a></li>
+                <li><a href="./pages/estampados.html"><button class="dropdown-item" type="button">Remeras Estampadas</button></a></li>
+                <li><a href="./pages/confecciones.html"><button class="dropdown-item" type="button">Confecciones</button></a></li>
+                <li><a href="./pages/impresiones3d.html"><button class="dropdown-item" type="button">Impresiones 3d</button></a></li>
+                <li><a href="./pages/disenouxui.html"><button class="dropdown-item" type="button">Diseños UX/UI</button></a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="pages/disenos.html" class="font3">Diseños</a></li>
+          <li><a href="pages/proyectos.html" class="font3">Proyectos</a></li>
+          <li><a href="pages/sobreMi.html" class="font3">Sobre mi</a></li>
+          <li><a href="pages/contacto.html" class="font3">Contacto</a></li>
         </ul>
       </div>
     </nav>
@@ -91,22 +105,22 @@
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
           <h5 class="text-uppercase mb-4 font-weight-bold text-color">Productos</h5>
           <p>
-            <a href="#" class="text-white none">Diseños Personalizados</a>
+            <a href="./pages/disenospersonalizados.html" class="text-white none">Piezas Graficas</a>
           </p>
           <p>
-            <a href="#" class="text-white none">Bordados</a>
+            <a href="./pages/bordados.html" class="text-white none">Bordados</a>
           </p>
           <p>
-            <a href="#" class="text-white none">Remeras Estampadas</a>
+            <a href="./pages/estampados.html" class="text-white none">Remeras Estampadas</a>
           </p>
           <p>
-            <a href="#" class="text-white none">Tazas Personalizadas</a>
+            <a href="./pages/confecciones.html" class="text-white none">Confecciones</a>
           </p>
           <p>
-            <a href="#" class="text-white none">Impresiones 3D</a>
+            <a href="./pages/impresiones3d.html" class="text-white none">Impresiones 3D</a>
           </p>
           <p>
-            <a href="#" class="text-white none">Diseño UX/UI</a>
+            <a href="./pages/disenouxui.html" class="text-white none">Diseño UX/UI</a>
           </p>
         </div>
 
@@ -119,7 +133,7 @@
             <a href="mailto:madara.design93@gmail.com" class="link-footer"><i class="fas fa-envelope mr-3"></i> madara.design93@gmail.com</a>
           </p>
           <p>
-           <a href="tel:1136900301" class="link-footer"><i class="fas fa-phone mr-3"></i> +54 911 36900301</a> 
+           <a href="tel:1136900301" class="link-footer none"><i class="fas fa-phone mr-3"></i> +54 911 36900301</a> 
           </p>
           <p>
             <a href="https://wa.me/+5491136900301" class="link-footer"><i class="fa-brands fa-whatsapp mr-3"></i> +54 11 36900301</a> 

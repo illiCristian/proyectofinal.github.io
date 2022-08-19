@@ -80,12 +80,6 @@ header {
   background-position: right;
 }
 
-.font2 {
-  font-style: normal;
-  font-size: larger;
-  color: aqua;
-}
-
 .colorFondo {
   background-color: rgb(197, 31, 38);
 }
@@ -144,6 +138,20 @@ header {
   transition: 0.4;
 }
 
+.desplegable {
+  background-color: rgb(197, 31, 38);
+  color: #fff;
+}
+
+.dropdown-item {
+  background-color: #fff;
+}
+
+.btn li:hover, .menu__items li :active {
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: 0.4;
+}
+
 .menu-icon img {
   width: 25px;
   height: 25px;
@@ -167,7 +175,7 @@ header {
   .menu__items li a {
     padding: 7px 13px;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 22px;
   }
   .logo {
     font-size: 28px;
@@ -206,6 +214,15 @@ header {
   }
   #check:checked ~ ul {
     left: 0;
+  }
+  .desplegable {
+    background-color: black;
+    color: #fff;
+  }
+  .dropdown-item {
+    background-color: #fff;
+    border-radius: 5px;
+    margin-right: 70px;
   }
 }
 @media (max-width: 400px) {
@@ -441,7 +458,7 @@ img {
   top: 0;
 }
 
-.link-footer{
+.link-footer {
   color: #FFFFFF;
   text-decoration: none;
 }
