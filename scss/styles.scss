@@ -181,7 +181,7 @@ header{
         right: 0;
     }
     .menu ul li{
-        padding:1.5rem;
+        padding:18px;
         display: flex;
         justify-content: center;
         margin: 0;
@@ -203,6 +203,12 @@ header{
         margin-right: 70px;
 
     }
+    .dropdown-menu li a{
+        padding:2px;
+        font-size: 15px;
+
+    }
+   
 
 }
 @media (max-width: 400px)
