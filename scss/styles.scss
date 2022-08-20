@@ -24,7 +24,7 @@ h2{
     font-size:larger;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 
-}
+} 
 header{
     position: sticky;
     top: 0;
@@ -62,7 +62,7 @@ header{
     text-align: center;/*PARA CENTRAR EL TEXTO*/
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
+ 
 
 
 
@@ -100,9 +100,10 @@ header{
     margin-right: 30px;
     li{
         border-radius: 3px;
-        // margin: 0 5px;
+        margin: 0 5px;
+        
         a{
-            padding: 7px 13px;
+             padding: 7px 13px;
             text-decoration: none;
             font-size: 18px;
             display: block;
@@ -152,9 +153,9 @@ header{
 @media (max-width: 800px)
 {
     .menu__items li a{
-        padding: 5px 13px;
+        padding: 4px 13px;
         text-decoration: none;
-        font-size: 22px;
+        font-size: 23px;
     }
     .logo{
         font-size: 28px;
@@ -181,9 +182,10 @@ header{
         height: 100vh; /*Cuando se muestre el menu que ocupe toda la pantalla*/
         right: 0;
         align-items: center;
+        padding-left: 1px;
     }
     .menu ul li{
-        padding:18px;
+        padding: 16px;
         display: flex;
         justify-content: space-around;
         margin: 0;
