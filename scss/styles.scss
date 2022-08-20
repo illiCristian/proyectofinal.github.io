@@ -12,7 +12,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Oswald', sans-serif;
     
-}
+} 
 
 /*Clases*/
 h1{
@@ -32,11 +32,11 @@ header{
     z-index: 1;
 }
 
-.font3{
-    color: rgb(90, 2, 2);
-    font-size:larger;
-    font-style:italic;
-}
+// .font3{
+//     color: rgb(90, 2, 2);
+//     font-size:larger;
+//     font-style:italic;
+// }
 .imagenDeFondo{
     background-image: url(../img/7064e30bed811f5a2e1fdda2a28fe406.jpg);
     background-repeat: no-repeat;
@@ -121,6 +121,7 @@ header{
 }
 .dropdown-item{
     background-color: map-get($map: $paleta, $key:'font-color');
+    width: 120px;
 }
 .btn li:hover, .menu__items li :active {
         background-color: rgba(0, 0, 0, 0.3);
@@ -151,7 +152,7 @@ header{
 @media (max-width: 800px)
 {
     .menu__items li a{
-        padding: 7px 13px;
+        padding: 5px 13px;
         text-decoration: none;
         font-size: 22px;
     }
@@ -179,11 +180,12 @@ header{
         width: 100%;
         height: 100vh; /*Cuando se muestre el menu que ocupe toda la pantalla*/
         right: 0;
+        align-items: center;
     }
     .menu ul li{
         padding:18px;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         margin: 0;
     }
     .menu ul li:last-child{
